@@ -10,7 +10,7 @@ Spur buttons communicate wirelessly with a bridge. Bridges are usually connected
 
   <img src="https://continuumbridge.github.io/spur/pictures/PlugIntoSocket.jpg">
   
-  <img src="https://continuumbridge.github.io/spur/pictures/Conn
+  <img src="https://continuumbridge.github.io/spur/pictures/ConnectPower.jpg">
 
 </p>
 
