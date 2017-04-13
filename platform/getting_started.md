@@ -20,7 +20,7 @@ The ContinuumBridge documentation is extensive, but you don't need to read it al
 
 If you have a configured Raspberry Pi and have some devices, you'll need to read [The ContinuumBridge Portal](doc:the-continuumbridge-portal) to learn how to connect and manage them. This section is applicable to anyone who just wants to use the ContinuumBridge platform, as well as those who want to develop for it.
 
-[ContinuumBridge Platform Overview](doc:overview) is a description of how the platform works and how the various bits fit together. A developer needs to be familiar with this.
+[ContinuumBridge Platform Overview](platform_overview.html) is a description of how the platform works and how the various bits fit together. A developer needs to be familiar with this.
 
 [Configuring a Raspberry Pi](doc:writing-a-bridge-app-on-a-raspberry-pi) takes you through how to use a Raspberry Pi as a bridge. The steps here tell you how to install at the necessary software or, soon, you'll be able to download a pre-configured image.
 
@@ -28,4 +28,4 @@ You'll need some devices to connect to your bridge. [Devices](doc:devices) tells
 
 The other sections are for those who want to develop apps, or add new devices to the platform. We suggest you start with [A Raspberry Pi App Example](doc:writing-an-app-on-the-raspberry-pi). There are a lot of similarities between writing apps and device adaptors.
 
-[Next page ...](doc:overview)
+[Next page ...]((platform_overview.html)
