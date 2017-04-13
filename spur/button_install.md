@@ -26,6 +26,8 @@ Remove the button body from its holder:
 <p align="center">
   
   <img src="https://continuumbridge.github.io/spur/pictures/RemoveFromBox2.jpg">
+
+  <img src="https://continuumbridge.github.io/spur/pictures/OutOfBox.jpg">
   
 </p>
 
@@ -33,15 +35,15 @@ The holder can be secured to a surface using either the double-sided sticky pads
 
 <p align="center">
 
-  <img src="https://continuumbridge.github.io/spur/pictures/OutOfBox.jpg">
-  
+  <img src="https://continuumbridge.github.io/spur/pictures/StickyPadsOn.jpg">
+
 </p>
 
 If using sticky pads, ensure that the surface is flat, clean and smooth, then push the holder against it firmly:
 
 <p align="center">
 
-  <img src="https://continuumbridge.github.io/spur/pictures/StickyPadsOn.jpg">
+  <img src="https://continuumbridge.github.io/spur/pictures/HolderOnWall.jpg">
 
 </p>
 
@@ -49,6 +51,7 @@ The button can then be inerted into the holder. It can be removed again as above
 
 <p align="center">
 
-  <img src="https://continuumbridge.github.io/spur/pictures/HolderOnWall.jpg">
+  <img src="https://continuumbridge.github.io/spur/pictures/PushToConnect.jpg">
 
 </p>
+
