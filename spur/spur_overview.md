@@ -5,7 +5,7 @@ title: Spur Documentation
 ## Quick Start
 Spur buttons communicate wirelessly with a gateway (which we call a bridge, largely because our company name has a "Bridge" in it). To install a Spur button and get it working you need to do the following:
 
-1. [Setup the bridge](bridge_settup)
+1. [Setup the bridge](bridge_setup)
 
 2. [Install a Spur Button](button_install.html)
 
