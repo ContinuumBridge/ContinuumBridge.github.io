@@ -8,9 +8,9 @@ Spur buttons communicate wirelessly with a bridge. Bridges are usually connected
 
 <p align="center">
 
-![Wall Socket](/pictures/PlugIntoSocket.jpg)
-
-![Connect Power](/pictures/ConnectPower.jpg)
+  <img src="https://continuumbridge.github.io/spur/pictures/PlugIntoSocket.jpg">
+  
+  <img src="https://continuumbridge.github.io/spur/pictures/Conn
 
 </p>
 
