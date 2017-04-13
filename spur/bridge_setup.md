@@ -6,6 +6,6 @@ Spur buttons communicate wirelessly with a bridge. Bridges are usually connected
 
 1. Plug the power supply into a wall socket and connect it to the bridge.
 
-[Wall Socket](pictures/PlugIntoSocket.jpg)
+![Wall Socket](pictures/PlugIntoSocket.jpg)
 
-[Connect Power](picture/ConnectPower.jpg)
+![Connect Power](picture/ConnectPower.jpg)
