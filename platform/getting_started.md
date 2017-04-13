@@ -28,4 +28,4 @@ You'll need some devices to connect to your bridge. [Devices](doc:devices) tells
 
 The other sections are for those who want to develop apps, or add new devices to the platform. We suggest you start with [A Raspberry Pi App Example](doc:writing-an-app-on-the-raspberry-pi). There are a lot of similarities between writing apps and device adaptors.
 
-[Next page ...]((platform_overview.html)
+[Next page ...](platform_overview.html)
