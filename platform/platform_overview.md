@@ -1,3 +1,7 @@
+---
+title: Platform Overview
+---
+# Platform Overview
 ContinuumBridge provides a platform for connecting devices to the Internet, managing them and making it easy for anyone to write applications that use them. The platform consists of local bridges, which currently consist of the ContinuumBridge cbridge software running on Raspberry Pies, and the Bridge Controller, which provides links to a user web portal and application back-ends. This is illustrated below.
 
 ![Platform Overview](pictures/Overall_Architecture_2.jpg)
