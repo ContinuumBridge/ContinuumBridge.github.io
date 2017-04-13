@@ -1,2 +1,2 @@
-# ContinuumBridge.github.io
+#ContinuumBridge
 Documentation
