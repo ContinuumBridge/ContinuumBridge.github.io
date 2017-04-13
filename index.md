@@ -1,15 +1,21 @@
 ---
-title: This will be used as the title-tag of the page head
+title: ContinuumBridge Documentations
 ---
-# This is a H1
+# ContinuumBridge Documentation
 
-[Platform Documentation](platform/document_list.html)
+Welcome to the ContinuumBridge documentation pages. Please select from one of the following:
 
-[Getting Started](/platform/getting_started.html)
+## Spur User Guide
+These pages contain all you need to know to connect and configre Spur buttons, including the basics of how to make the screensets that configure their operation. 
 
-[Platform Overview](/platform/platform_overview.html)
+[Go to the Spur User Guide](/spur/user_guide.html)
 
-[the clickable text](http://xlson.com/)
+## Spur Developer Documentation
+This is a more detailed guide that gives details of how to connect Spur to a variety of APIs, including the IBM Watson IoT Platform. 
 
-* Bullet lists are also easy to create
-* One more
+[Go to the Spur Developer Documentation](/spur/developer.html)
+
+## Technology Platform
+This is the documentation for the ContinuumBridge technology platform. This is the underlying platform used for the ContinuumBridge [Wisp](http://www.wisp.site) and [Spur](http://www.spur.site) services. It is also available for anyone to use as a means of connecting and managing a variety of Internet of Things (IoT) devices. 
+
+[Go to the Technology Platform Pages](/platform/getting_started.html)
