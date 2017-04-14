@@ -6,8 +6,8 @@ title: Spur User Guide
 The basics of connecting a Spur button and selecting an application (screenset) for it are covered in the [Quick Start Guide](spur_overview.md). It is assumed that if you are reading this document you will already be familiar with this. The things that are covered in this document are:
 
 * [Overview of the Spur Portal](#overview-of-the-spur-portal)
-* [Creating Screensets](#screensets)
-* [Spur Button Operation](#operation)
+* [Creating Screensets](#creating-screensets)
+* [Spur Button Operation](#spur-button-operation)
 
 ## Overview of the Spur Portal
 ### Terminology
@@ -117,7 +117,8 @@ There are two types of alert: email and SMS, as shown below:
 
 An email alert will cause an email to be sent to the email addresses in the "Email address" box, with the message in the message box. You can have up to 8 email addresses, separated by commas. 
 
-> **Note.** You do not need to include the button name in the message. If the message in the email alert box says: "Cleaing requested", for example, and the button is called "First floor washroom", then an email will be sent from "Bridges <bridges@continuumbridge.com>" to be email addresses in the list with the subject "First floor washroom: Cleaning requested - 21:26:44, 11-04-2017". The time and date are appended as some email clients group all emails with the same subject together, which some users found lead to them being overlooked.
+#### Note. 
+You do not need to include the button name in the message. If the message in the email alert box says: "Cleaing requested", for example, and the button is called "First floor washroom", then an email will be sent from "Bridges <bridges@continuumbridge.com>" to be email addresses in the list with the subject "First floor washroom: Cleaning requested - 21:26:44, 11-04-2017". The time and date are appended as some email clients group all emails with the same subject together, which some users found lead to them being overlooked.
 
 ### Joining it all Together
 A screenset is made by joining together screens and alerts. Screens has four hollow circular connectors, two on the left side and two on the right. These represent pushing the left or right side of the button (top connectors) and double-pushing the left or right side (bottom connectors). Alerts have a similar connector on their lower side. Also, both screens and alerts have a solid circular connector on their top side. If you want a single left push on a screen to cause an email to be sent, for example, click on the top-left connector of the screen, drag your cursor to the top connector of the email alert and release, this will create the connection shown below:
@@ -191,16 +192,41 @@ For reasons to do with the internal workings of Spur, the screenset on the left,
 
 [Return to top of screen](#introduction)
 
+## Spur Button Operation
+This section describes the operation of the Spur button itself. Most of the time, the button just does what it is told by the Spur portal. However, there are certain features that can be accessed by pushing the button for more than three seconds.
 
+### Communication with the Bridge
+In order to achieve a long battery life, a Spur button is in standby mode most of the time. In theory, a battery would last over 40 years when a battery is in standby mode. Of course, energy is drained from the battery every time the display changes or the button communicates over the wireless network with a bridge. For this reason, button normally only wake up either:
 
+1. When they are pushed.
+2. Every 12 hours, so that the bridge knows the button is still alive.
 
+Thus, if you make a change on the portal, for example changing the text on a screenset, it may take up to 12 hours for the button to change, unless you go and push the button. (Actually, in some circumstances the button can wake up a lot more often. The main reason is if it is expecting to receive an update message. This is covered in the Developers' Manual). 
 
+If a button tries to communicate with its associated bridge (either because it's been pushed or its' woken up by itself) and doesn't get a response, it will try again several times over a 10 minute period and then start trying to reconnect to the bridge. It tries to connect quite often at first (after 10 minutes, 30 minutes, 1 hour), but eventually only tries every 12 hours. A button will always connect to a bridge when it next sees one. What sometimes happens, though, is that when people are experiementing with buttons, they may turn bridges off and on to move them around or move buttons from the coverage area of one bridge to another. If you do this, you can generally force it to try to connect again by pushing it, but if this is within 10 minutes of when it was last in contact with a bridge and you are in a hurry, you may need to reset it (see below).
 
+### The Information Screen
+In normal operation, if you hold the button down for more than three seconds, it will display the message: "Working ... Please wait" for a few seconds and then show the following screen:
 
+<p align="center">
 
+  <img src="https://continuumbridge.github.io/spur/pictures/InfoScreen.jpg">
 
+</p>
 
+This shows:
 
+* The node ID, which is the number that you enter into the portal.
+* Ver, the software version of the button. This could be useful if you are experiencing problems.
+* Battery, the battery voltage. This should be above 3.0 Volts in normal operation.
+* Bridge, the ID of the bridge that the button has used to measure its signal strength. Note that buttons don't necessarily connect to the bridge with the strongest signal strength. They use the first one that they can see.
+* The Received Signal Strength Indicator (RSSI). This is the value that is used to set the number of bars on the signal strength indicator on the portal. Anything greater than -100 dBm is OK. Note that it's a negative number, so -60 dBm is a strong signal, -100 dBm is quite weak.
 
+### Resetting
+The information screen, described above, is displayed for about five seconds and then the button goes back to its start screen. If during this five seconds you double-push on the right hand side of the button it will reset to its factory default settings. 
 
-[Back to top](#introduction)
+There is another way of resetting, which is to hold the button for 10 seconds or longer, release and then double-push on the right hand side. 
+
+If a button is not in contact with a bridge, after a while it will display the message: "Communication problem. Button not in use". In this state, you will probably need to use the 10 second push method. If the button has recently become disconnected, as may happen if you are experimenting, we advise using a 20 second push (because when you push down it is likely to start trying to send a message to the bridge, which takes about 15 seconds, during which time it will not notice if you release the button).
+
+[Return to top of screen](#introduction)
