@@ -2,18 +2,14 @@
 title: Spur User Guide
 ---
 # Spur User Guide
-<a name="introduction">
-  ## Introduction
-</a>
+## Introduction
 The basics of connecting a Spur button and selecting an application (screenset) for it are covered in the [Quick Start Guide](spur_overview.md). It is assumed that if you are reading this document you will already be familiar with this. The things that are covered in this document are:
 
-* [Overview of the Spur Portal](#overview)
+* [Overview of the Spur Portal](#overview-of-the-spur-portal)
 * [Creating Screensets](#screensets)
 * [Spur Button Operation](#operation)
 
-<a name="overview">
-  ## Overview of the Spur Portal
-</a>
+## Overview of the Spur Portal
 
 The Spur Portal, [portal.spur.site](http:www.portal.spur.site) enabled configuration and montoring of Spur buttons. The essential ingredients of the Spur portal are:
 
