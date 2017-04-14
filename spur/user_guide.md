@@ -230,3 +230,5 @@ There is another way of resetting, which is to hold the button for 10 seconds or
 If a button is not in contact with a bridge, after a while it will display the message: "Communication problem. Button not in use". In this state, you will probably need to use the 10 second push method. If the button has recently become disconnected, as may happen if you are experimenting, we advise using a 20 second push (because when you push down it is likely to start trying to send a message to the bridge, which takes about 15 seconds, during which time it will not notice if you release the button).
 
 [Return to top of screen](#introduction)
+
+[Go to Spur main page](spur_overview.md)
