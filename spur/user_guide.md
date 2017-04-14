@@ -10,7 +10,9 @@ The basics of connecting a Spur button and selecting an application (screenset) 
 * [Spur Button Operation](#operation)
 
 <a name="overview">
+
 ## Overview of the Spur Portal
+
 </a>
 
 Overview.
