@@ -182,7 +182,7 @@ There are rules as to where boxes can be placed:
 * The first three lines can be full width, with a box on the fourth.
 
 ### "Reconvergent" Screensets
-For reasons to do with the internal workings of Spur, the screenset on the left, below, will not function as you expect (two emails will always be sent). Instead, use the form on the right.
+All the alerts that feed into a screen will happen when a button displays a screen, regardless of the screen that was displayed before. This means, for example, that the screenset on the left, below, will not function as you may expect (both emails will always be sent when the button starts to display the bottom screen, regardless of whether the left or right side was pushed). Instead, use the form on the right.
     
 <p align="center">
 
