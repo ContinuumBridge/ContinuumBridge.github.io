@@ -71,7 +71,7 @@ Now, repeat the “Connect to a Device” and installation process for other dev
   
 </p>
 
-> Congratulations!
+### Congratulations!
 
 > You've connected devices to an app and got them to do something. This is a very simple example, but even with a few simple devices you can make it do lots more, just by editing the code.
 
