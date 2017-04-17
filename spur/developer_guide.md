@@ -64,13 +64,13 @@ If someone changes the screen set name, the list name or the button name, the fi
 [Return to top of screen](#spur-developer-guide)
  
  ## Specific APIs
- The RESTful API, described above, is fairly general-purpose, particularly if you have control of the server side. ContinuumBridge and its partners have developed a number of specific APIs. Although some of these are proprietary and not listed here, there are a number of APIs to popular back-end applications.
+The RESTful API, described above, is fairly general-purpose, particularly if you have control of the server side. ContinuumBridge and its partners have developed a number of specific APIs. Although some of these are proprietary and not listed here, there are a number of APIs to popular back-end applications.
  
  ### The IBM Watson IoT Platform
- Spur is fully-integrated with the Watson IoT platform. This is described fully is an [IBM developerWorks Recipe](https://developer.ibm.com/recipes/tutorials/using-continuumbridge-spur-buttons-with-the-ibm-watson-iot-platform/).
+Spur is fully-integrated with the Watson IoT platform. This is described fully is an [IBM developerWorks Recipe](https://developer.ibm.com/recipes/tutorials/using-continuumbridge-spur-buttons-with-the-ibm-watson-iot-platform/).
  
  ### InfluxDB
- [InfluxDB](https://www.influxdata.com/) is a power and easy-to-use time-series database that is closely coupled with a number of useful tools, such as [Grafana](https://grafana.com/), a powerful visualisation and analytics tool. It works in much the same way as the RESTful API. In the email address box, put:
+[InfluxDB](https://www.influxdata.com/) is a power and easy-to-use time-series database that is closely coupled with a number of useful tools, such as [Grafana](https://grafana.com/), a powerful visualisation and analytics tool. It works in much the same way as the RESTful API. In the email address box, put:
  
      #api influxdb={"method": "post", "url": "host_name/db/db_name/series?u=user&p=password"}
      
@@ -167,4 +167,5 @@ The above sequence of wakeups is considered a fair compromise between battery li
 </p>
 
 [Return to top of screen](#spur-developer-guide)
+
 [Return to Spur documentation home](spur_overview.md)
