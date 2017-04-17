@@ -231,4 +231,4 @@ If a button is not in contact with a bridge, after a while it will display the m
 
 [Return to top of screen](#introduction)
 
-[Go to Spur main page](spur_overview.md)
+[Go to Spur main page](index.md)
