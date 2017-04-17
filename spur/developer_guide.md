@@ -168,4 +168,4 @@ The above sequence of wakeups is considered a fair compromise between battery li
 
 [Return to top of screen](#spur-developer-guide)
 
-[Return to Spur documentation home](spur_overview.md)
+[Return to Spur documentation home](index.md)
