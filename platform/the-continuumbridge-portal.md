@@ -27,6 +27,7 @@ Click on the Install Apps button. A pop-up will appear similar to that shown bel
 </p>
 
 > No Apps?
+
 > A few default apps are installed when you create a new bridge. At present, this sometimes does not happen. If you don't see any, please email us at info.continuumbridge.com and we'll fix it.
 
 ## "Discovering" devices
@@ -41,6 +42,31 @@ Now ensure that the devices that you want to use are on. Z-wave devices are gene
 Only one device may be installed at a time. With Z-wave devices, only one will be displayed. With Bluetooth devices, you may see many and a lot of devices (eg: some smartphones) will appear, but only try to install the device you are intending to install. 
 
 > Z-wave devices
+
 > Make sure the device is within a few metres of the bridge before trying to discover/include it. Once it is installed on the bridge, you can move it away.
 
 > Sometimes you may see a status message saying that a Z-wave device has been found, but then it is not identified. This can occur for a number of reasons, including a poor radio connection. If this happens, press the Z-exclude button on the portal and then the include/exclude button on the device (in accordance with the manufacturer's instructions). Then try again.
+
+The display below shows what happened when we clicked on the “Install” button of the Vision Security device and gave it the name “Magnetic Switch”. 
+
+<p align="center">
+
+  <img src="https://continuumbridge.github.io/platform/pictures/OneDeviceDiscovered.md">
+  
+</p>
+
+> Friendly Names
+
+> We find it useful to give our devices names that we can remember, such as "Front Door Magnetic Switch", for a magnetic switch that's on the front door. Then it's easy to work out which devices you want to connect to an app.
+
+> The Update Button
+
+> Information about apps and adaptors is sent to the bridge (Raspberry Pi) when the “Update” button in the group of buttons on the bottom-left of the screen is pressed. If you are discovering multiple devices at one time, then press this between each discovery.
+
+Now, repeat the “Connect to a Device” and installation process for other devices, remembering to press the “Update” button each time. The figure below shows the display after a mains switch and a “Continuum” Sensortag have been installed
+
+<p align="center">
+
+  <img src="https://continuumbridge.github.io/platform/pictures/ThreeDevicesDiscovered.md">
+  
+</p>
