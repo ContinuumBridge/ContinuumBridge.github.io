@@ -106,6 +106,8 @@ The delay screen allows you to instruct the button to display that screen for a 
 
 The "with LED" screen displays status indicators, which look like LEDs, in a button list, as shown in the list of bays in the warehouse further up this page. Click on the "LED" to change its colour between green, amber and red. The number of "LEDs" displayed on a list next to the button corresponds to the number of colours that you have used. If you have only used one colour, say green, then only one "LED" will be displayed and it will be green when the button is showing a screen with an "LED" on it. 
 
+Every time an LED is turned on, it will be accompanied by a "ding" sound. One use of this is to display a list of buttons (maybe logged-in as a readonly user) on a tablet display. Every time a button in the list is pushed, the corresponding "LED" status indicator will be illuminated and the "ding" will alert staff that this has happened.
+
 ### Alerts
 There are two types of alert: email and SMS, as shown below:
 
@@ -180,6 +182,18 @@ There are rules as to where boxes can be placed:
 * The first line can be full width, with boxes around left and right on the second, third and fourth.
 * The first and second lines can be full width, with boxes on the third and fourth.
 * The first three lines can be full width, with a box on the fourth.
+
+### Combining LEDs with Delays
+Currently there is no screen that combines the LED function with delays. This will be changed in a future release of Spur. In the meantime, you can achieve this function by using the #delay keyword in an email alert, as shown below. This will turn on the green status "LED" for ten seconds.
+
+ <p align="center">
+
+  <img src="https://continuumbridge.github.io/spur/pictures/LED-Delay.jpg">
+
+</p>
+
+This method will continue to be supported after a combined LED/delay screen has been provided, so there will be no need to change any screensets that you have done this way.
+
 
 ### "Reconvergent" Screensets
 All the alerts that feed into a screen will happen when a button displays a screen, regardless of the screen that was displayed before. This means, for example, that the screenset on the left, below, will not function as you may expect (both emails will always be sent when the button starts to display the bottom screen, regardless of whether the left or right side was pushed). Instead, use the form on the right.
