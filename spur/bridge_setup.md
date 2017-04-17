@@ -26,4 +26,4 @@ Once the LED is solid, the bridge is ready to use. The bridge is intended to be 
 
 [Next: Install a Spur Button](button_install.md)
 
-[Return to Spur documentation home](spur_overview.md)
+[Return to Spur documentation home](index.md)
