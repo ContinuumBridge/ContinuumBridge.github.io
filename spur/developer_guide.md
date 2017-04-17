@@ -5,13 +5,11 @@ title: Spur Developer Guide - RESTful API
 ## Introduction
 This guide describes some more advanced features of Spur, that will principally be of interest to developers who are integrating Spur with other back-end systems. It contains the following:
 
-[Overview of API Calls Using the Email Alert](overview-of-api-calls-using-the-email-alert) - A descritpion of the general-purpose RESTful API.
+[Overview of API Calls Using the Email Alert](#overview-of-api-calls-using-the-email-alert) - A descritpion of the general-purpose RESTful API.
 
-[Specific APIs](specific-apis) - APIs to specific applications, such as the IBM Watson IoT Platform and InfluxDB.
+[Specific APIs](#specific-apis) - APIs to specific applications, such as the IBM Watson IoT Platform and InfluxDB.
 
-[Dynamic Screen Updating](dynamic-screen-updating) - How to update update the screen of the button from an API.
-
-[Other Functions](other-functions) - How to combine delays with LED screens and setting wakeup behaviour.
+[Dynamic Screen Updating](#dynamic-screen-updating) - How to update update the screen of the button from an API.
 
 ## Overview of API Calls Using the Email Alert
 In a future release of the Spur portal, there will be more types of alert boxes. Currently all advanced functions are accessed by using key words (prefixed by a #) in the email alert box, as in the example below:
@@ -168,3 +166,4 @@ The above sequence of wakeups is considered a fair compromise between battery li
 
 </p>
 
+[Return to top of screen](#spur_developer_guide)
