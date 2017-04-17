@@ -71,6 +71,6 @@ When you are ready to start using the button, double-push, which is two pushes w
   
 </p>
 
-
+[Return to Spur documentation home](spur_overview.md)
 
 
