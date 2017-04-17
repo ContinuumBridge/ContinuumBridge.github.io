@@ -24,4 +24,6 @@ Spur buttons communicate wirelessly with a bridge. Bridges are usually connected
 
 Once the LED is solid, the bridge is ready to use. The bridge is intended to be left powered-up continually. Spur buttons need to communicate with it at any time of day, and ContinuumBridge also need to access it remotely to update software and perform maintenance.
 
+[Next: Install a Spur Button](button_install.md)
 
+[Return to Spur documentation home](spur_overview.md)
