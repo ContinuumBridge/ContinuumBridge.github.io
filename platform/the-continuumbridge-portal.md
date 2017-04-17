@@ -26,7 +26,7 @@ Click on the Install Apps button. A pop-up will appear similar to that shown bel
   
 </p>
 
-> No Apps?
+### No Apps?
 
 > A few default apps are installed when you create a new bridge. At present, this sometimes does not happen. If you don't see any, please email us at info.continuumbridge.com and we'll fix it.
 
@@ -41,7 +41,7 @@ Now ensure that the devices that you want to use are on. Z-wave devices are gene
 
 Only one device may be installed at a time. With Z-wave devices, only one will be displayed. With Bluetooth devices, you may see many and a lot of devices (eg: some smartphones) will appear, but only try to install the device you are intending to install. 
 
-> Z-wave devices
+### Z-wave devices
 
 > Make sure the device is within a few metres of the bridge before trying to discover/include it. Once it is installed on the bridge, you can move it away.
 
@@ -55,11 +55,11 @@ The display below shows what happened when we clicked on the “Install” butto
   
 </p>
 
-> Friendly Names
+### Friendly Names
 
 > We find it useful to give our devices names that we can remember, such as "Front Door Magnetic Switch", for a magnetic switch that's on the front door. Then it's easy to work out which devices you want to connect to an app.
 
-> The Update Button
+### The Update Button
 
 > Information about apps and adaptors is sent to the bridge (Raspberry Pi) when the “Update” button in the group of buttons on the bottom-left of the screen is pressed. If you are discovering multiple devices at one time, then press this between each discovery.
 
@@ -70,3 +70,16 @@ Now, repeat the “Connect to a Device” and installation process for other dev
   <img src="https://continuumbridge.github.io/platform/pictures/ThreeDevicesDiscovered.md">
   
 </p>
+
+> Congratulations!
+
+> You've connected devices to an app and got them to do something. This is a very simple example, but even with a few simple devices you can make it do lots more, just by editing the code.
+
+### Things to remember
+This is an alpha version of the ContinuumBridge platform and is intended primarily for developers. Subsequent versions will have a far cleaner user interface, but for now, if things aren't going as you expected, remember:
+
+1. Always press the Update button on the portal when you have made any changes.
+
+2. Most changes won't take effect on the bridge until you have pressed Restart.
+
+3. Installing Z-wave devices can be a pain. See the notes above.
