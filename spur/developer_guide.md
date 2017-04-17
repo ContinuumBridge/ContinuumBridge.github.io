@@ -61,15 +61,15 @@ If someone changes the screen set name, the list name or the button name, the fi
  
  This causes the value that is actually sent over the API to start at zero, when the button is first created, and then incremented by one each time thereafter. This is most useful during testing or for a quick demo.
  
- [Return to top of screen](#spur_developer_guide)
+[Return to top of screen](#spur-developer-guide)
  
- # Specific APIs
+ ## Specific APIs
  The RESTful API, described above, is fairly general-purpose, particularly if you have control of the server side. ContinuumBridge and its partners have developed a number of specific APIs. Although some of these are proprietary and not listed here, there are a number of APIs to popular back-end applications.
  
- ## The IBM Watson IoT Platform
+ ### The IBM Watson IoT Platform
  Spur is fully-integrated with the Watson IoT platform. This is described fully is an [IBM developerWorks Recipe](https://developer.ibm.com/recipes/tutorials/using-continuumbridge-spur-buttons-with-the-ibm-watson-iot-platform/).
  
- ## InfluxDB
+ ### InfluxDB
  [InfluxDB](https://www.influxdata.com/) is a power and easy-to-use time-series database that is closely coupled with a number of useful tools, such as [Grafana](https://grafana.com/), a powerful visualisation and analytics tool. It works in much the same way as the RESTful API. In the email address box, put:
  
      #api influxdb={"method": "post", "url": "host_name/db/db_name/series?u=user&p=password"}
@@ -95,9 +95,9 @@ where list_name-button_name is the name of the list that the button is in, with 
  
 *ContinuumBridge can provide access to a database within our own hosted InfluxDB, hosted in [InfluxCloud](https://cloud.influxdata.com/).* Please contact ContiuumBridge for details.
 
-[Return to top of screen](#spur_developer_guide)
+[Return to top of screen](#spur-developer-guide)
 
-## IoT Stream
+### IoT Stream
 This is an API to the [Iot Stream](http://www.iotstream.io/) platform. It works in the same way as the RESTful API, but with IoT Stream-specific changes. Here is an example:
 
     #api iotstream={"method": "post", "url": "https://demo.iotstream.io/v2/json/updateSwitchValue"} 
@@ -108,7 +108,7 @@ and the message:
     
 To use this API, you will need to have an IoT Stream account. ContinuumBridge can provide an introduction to IoT Stream, or you can contact IoT Stream directly [here](http://www.iotstream.io/contact/).
 
-[Return to top of screen](#spur_developer_guide)
+[Return to top of screen](#spur-developer-guide)
 
 ## Dynamic Screen Updating
 In some applications you may want to update the screen of a Spur button dynamically. For example, if a button is used to report a fault, you may want to change the display as follows:
@@ -166,4 +166,5 @@ The above sequence of wakeups is considered a fair compromise between battery li
 
 </p>
 
-[Return to top of screen](#spur_developer_guide)
+[Return to top of screen](#spur-developer-guide)
+[Return to Spur documentation home](spur_overview.md)
