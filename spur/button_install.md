@@ -55,3 +55,6 @@ The button can then be inerted into the holder. It can be removed again as above
 
 </p>
 
+[Next: Connecting a Spur Button to the Spur Portal](portal_setup.md)
+
+[Return to Spur documentation home](spur_overview.md)
